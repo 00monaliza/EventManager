@@ -1,0 +1,46 @@
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: var(--radius-lg);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* Category badges */
+.category-conference {
+  background: rgba(55, 110, 111, 0.15);
+  color: var(--color-teal);
+}
+
+.category-webinar {
+  background: rgba(218, 123, 147, 0.15);
+  color: #b55a72;
+}
+
+.category-meeting {
+  background: rgba(47, 68, 84, 0.15);
+  color: var(--color-primary);
+}
+
+.category-other {
+  background: rgba(0, 0, 0, 0.07);
+  color: var(--color-text-muted);
+}
+
+/* Status badges */
+.status-planned {
+  background: rgba(37, 99, 235, 0.12);
+  color: #1d4ed8;
+}
+
+.status-completed {
+  background: rgba(22, 163, 74, 0.12);
+  color: #15803d;
+}
+
+.status-cancelled {
+  background: rgba(0, 0, 0, 0.07);
+  color: var(--color-text-muted);
+}
